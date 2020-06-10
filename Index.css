@@ -1,0 +1,71 @@
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.hero h1,
+.hero h2 {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero h2 {
+  text-align: center;
+  font-weight: initial;
+}
+
+.hero .hero_iframe {
+  width: 40rem;
+  height: 30rem;
+  text-align: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  text-decoration: underline;
+}
+
+.nav .nav_li {
+  background-color: #3766e6;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  width: 9em;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav .nav_li a {
+  color: white;
+  font-weight: bold;
+}
+
+.signup-form form input {
+  border: none;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 2rem;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+/*# sourceMappingURL=Index.css.map */
